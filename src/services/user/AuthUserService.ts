@@ -16,7 +16,6 @@ export class AuthUserService{
         if (!passwordMatch) {
             throw new Error("Senha Incorreta");
         }
-       
         const token = sign(
             {
                 name: user['name'],
