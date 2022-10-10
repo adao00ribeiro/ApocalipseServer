@@ -7,8 +7,8 @@ const PORT = process.env.PORT || 3333
 const HOSTNAME = process.env.HOSTNAME || 'http://localhost'
 const app = express();
 
-app.use(express.urlencoded)
-app.use(cors)
+app.use(express.urlencoded({ extended: true }))
+app.use(cors())
 app.use(router)
 app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
     if (err instanceof Error) {
@@ -23,4 +23,4 @@ app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
 })
 app.listen(PORT, () => {
     console.log(`Servidor rodando com sucesso ${HOSTNAME}:${PORT}`)
-})
+})  
