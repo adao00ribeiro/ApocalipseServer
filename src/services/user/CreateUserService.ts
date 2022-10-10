@@ -1,6 +1,7 @@
+import database from "../../database";
 import { IUserRequest } from "../../interfaces/IUserRequest";
-
-
+import { v4 as uuidv4 } from "uuid";
+import {hash} from 'bcryptjs'
 
 
 export class CreateUserService{
@@ -13,6 +14,7 @@ export class CreateUserService{
             throw new Error("Email Exist");
             
         }
-        
+       
+   
     }
 }
