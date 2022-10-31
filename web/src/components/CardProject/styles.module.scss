@@ -1,0 +1,52 @@
+.Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    box-sizing: border-box;
+    background: #000000;
+    border: 1px solid #4D4C4C;
+
+    img {
+        height: 450px;
+        width: auto;
+        object-fit: cover;
+
+    }
+}
+
+/*"w-full pt-16 pb-4 px-4 bg-game-gradient absolute bottom-0 left-0 right-0"*/
+.Card_Div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+    /*font-bolt text-white block*/
+    strong {
+        margin: 20px;
+        font-family: 'Kodchasan';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 32px;
+        color: var(--white);
+    }
+
+    /*text-zinc-300 text-sm block*/
+    span {
+        margin: 20px;
+        font-family: 'Kodchasan';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        color: var(--white);
+    }
+
+    button {
+        margin: 20px;
+        color: black;
+        padding: 1rem 2rem;
+        background-color: var(--red);
+    }
+}
