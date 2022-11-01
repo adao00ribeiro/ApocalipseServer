@@ -1,7 +1,8 @@
 .backgroundImage {
     position: absolute;
     width: 100%;
-    height: auto;
+    height: 100vh;
+    object-fit: cover;
     z-index: -1;
 }
 
@@ -12,8 +13,7 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    border-style: solid;
-    border-color: red;
+   
 
     h1 {
         width: 300px;
@@ -36,27 +36,20 @@
 }
 
 .containerCentralized {
-
+    border-style: solid;
+    border-color: red;
     margin: auto;
-    width: 80%;
+    width: 70%;
 
 }
 
-
+.H1center {
+    margin-top: 2rem;
+    color: var(--white);
+    text-align: center;
+}
 //section projetos
 
-.sectionProjetos {
-    padding-top: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-
-    h1 {
-        color: var(--white);
-        margin-bottom: 2rem;
-    }
-}
 
 .grid {
     display: grid;
@@ -68,10 +61,7 @@
 
 //section sobrenos
 
-.h1SobreNos {
-    color: var(--white);
-    text-align: center;
-}
+
 
 .divsobrenos {
 
@@ -91,5 +81,70 @@
         line-height: 34px;
 
         color: var(--white)
+    }
+}
+
+//contato
+
+
+
+.divcontato{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    textarea {
+        width: 100%;
+        min-height: 220px;
+        resize: none;
+        padding: 0.5rem;
+    }
+    
+}
+.divinput{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+.input {
+    width: 100%;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+    color: var(--white);
+    background-color: var(--black);
+    border: 1px solid var(--white);
+    height: 80px;
+    padding: 0 0.5rem;
+}
+
+.buttonEnviar {
+    border-radius: 0.3rem;
+    width: 250px;
+    height: 80px;
+    border: 0;
+    background-color: var(--red);
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--white)
+}
+
+//footer
+
+.divfooter{
+    background-color: var(--black);
+    padding: 2rem;
+
+    h1{
+        color: var(--white);
+        text-align: center;
     }
 }

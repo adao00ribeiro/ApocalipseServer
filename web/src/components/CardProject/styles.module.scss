@@ -1,16 +1,17 @@
 .Card {
+    width: 350px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+   
 
     box-sizing: border-box;
     background: #000000;
     border: 1px solid #4D4C4C;
 
     img {
-        height: 450px;
+        height: 250px;
         width: auto;
-        object-fit: cover;
+        object-fit: fill;
 
     }
 }
@@ -44,6 +45,7 @@
     }
 
     button {
+        width: 150px;
         margin: 20px;
         color: black;
         padding: 1rem 2rem;
