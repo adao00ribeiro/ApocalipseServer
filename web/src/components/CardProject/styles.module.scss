@@ -1,16 +1,16 @@
 .Card {
-    width: 350px;
+    width: auto;
     display: flex;
     flex-direction: column;
-   
 
     box-sizing: border-box;
     background: #000000;
     border: 1px solid #4D4C4C;
 
     img {
-        height: 250px;
+
         width: auto;
+        height: 350px;
         object-fit: fill;
 
     }
@@ -21,11 +21,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    padding: 20px;
 
     /*font-bolt text-white block*/
     strong {
-        margin: 20px;
+        width: auto;
+        margin-bottom: 2rem;
         font-family: 'Kodchasan';
         font-style: normal;
         font-weight: 700;
@@ -36,7 +37,8 @@
 
     /*text-zinc-300 text-sm block*/
     span {
-        margin: 20px;
+        width: auto;
+        margin-bottom: 2rem;
         font-family: 'Kodchasan';
         font-style: normal;
         font-weight: 400;
@@ -45,8 +47,6 @@
     }
 
     button {
-        width: 150px;
-        margin: 20px;
         color: black;
         padding: 1rem 2rem;
         background-color: var(--red);

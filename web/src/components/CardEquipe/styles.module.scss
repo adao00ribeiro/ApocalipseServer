@@ -1,0 +1,29 @@
+.Card {
+    width: 100%;
+
+
+    img {
+
+        width: 100%;
+
+
+    }
+}
+
+.CardInformacao {
+
+    display: flex;
+    flex-direction: column;
+
+
+
+
+    strong {
+        color: var(--white);
+
+    }
+
+    span {
+        color: var(--white);
+    }
+}
