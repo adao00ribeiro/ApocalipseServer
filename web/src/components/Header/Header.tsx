@@ -5,20 +5,20 @@ export function Header() {
     return (
         < header className={styles.headerContainer}>
             <div className={styles.headerContent}>
-                <Link href="/Home">
+                <Link href="/">
                     <img src="/Logo.svg" width={190} height={60}></img>
                 </Link>
                 <nav className={styles.menuNav}>
-                    <Link href="">
+                    <Link href="/#projetos" scroll={false}>
                         Projetos
                     </Link>
-                    <Link href="">
+                    <Link href="/#sobrenos" scroll={false}>
                         Sobre Nos
                     </Link>
-                    <Link href="">
+                    <Link href="/#equipe">
                         Equipe
                     </Link>
-                    <Link href="">
+                    <Link href="/#contato">
                         Contato
                     </Link>
                 </nav>

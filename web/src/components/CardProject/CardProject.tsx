@@ -6,17 +6,16 @@ export function CardProject() {
 
         < div className={styles.Card}>
             <div className={styles.divImage}>
-            <img src="https://static-cdn.jtvnw.net/ttv-boxart/65632_IGDB-144x192.jpg"></img>
+                <img src="https://static-cdn.jtvnw.net/ttv-boxart/65632_IGDB-144x192.jpg"></img>
             </div>
-           
 
             <div className={styles.CardInfo}>
                 <strong>Nome Jogo</strong>
                 <span> Descricao do jogo toper apocalipse asdasdaasda sdas dad asd as</span>
                 <div className={styles.CardButton}>
-                <button>Detalhes</button>
+                    <button>Detalhes</button>
                 </div>
-                
+
             </div>
         </div >
     )

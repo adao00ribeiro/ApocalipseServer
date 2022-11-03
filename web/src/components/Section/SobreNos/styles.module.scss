@@ -1,13 +1,8 @@
-
 //section sobrenos
-.divsobrenos{
-
-  
+.divsobrenos {
     display: flex;
     flex-direction: column;
     align-items: center;
-   
-
 
     h1 {
         font-size: 2rem;
@@ -15,7 +10,9 @@
         color: var(--white);
     }
 }
+
 .divinfo {
+    width: 100%;
 
     display: flex;
     flex-direction: column;
@@ -32,4 +29,33 @@
         line-height: 34px;
         color: var(--white)
     }
+}
+
+.ContainerProgram {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.divProgram {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+
+    h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        color: var(--white);
+    }
+
+    p {
+        color: var(--white);
+        text-align: justify;
+    }
+
 }
