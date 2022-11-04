@@ -1,16 +1,17 @@
 import { Header } from "../Header/Header";
 import styles from "./styles.module.scss";
+import Image from "next/image";
 
+export function MainDiv() {
+  return (
+    <>
+      <Header />
 
-export function MainDiv(){
-    return(
-        <>
-        <Header />
-        <div className={styles.divMain}>
-          <h1>Jogos com ideia e design memorável</h1>
-          <img src="/Logo.svg" ></img>
-        </div>
-        </>
-      
-    )
+      <div className={styles.divMain}>
+        <h1>Jogos com ideia e design memorável</h1>
+        <Image src="/Logo.svg" alt={""} ></Image>
+      </div>
+    </>
+
+  )
 }

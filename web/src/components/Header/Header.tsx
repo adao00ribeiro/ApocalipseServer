@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import styles from "./styles.module.scss";
 //import { FiLogOut } from 'react-icons/fi'
 export function Header() {
@@ -6,7 +7,7 @@ export function Header() {
         < header className={styles.headerContainer}>
             <div className={styles.headerContent}>
                 <Link href="/">
-                    <img src="/Logo.svg" width={190} height={60}></img>
+                    <Image src="/Logo.svg" width={100} height={60} alt={""}></Image>
                 </Link>
                 <nav className={styles.menuNav}>
                     <Link href="/#projetos" scroll={false}>

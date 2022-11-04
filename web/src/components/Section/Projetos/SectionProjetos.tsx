@@ -11,9 +11,6 @@ export function SectionProjetos() {
         <h1 >Projetos</h1>
         <div className={styles.grid}>
           <CardProject />
-          <CardProject />
-          <CardProject />
-
         </div>
       </div>
     </section>

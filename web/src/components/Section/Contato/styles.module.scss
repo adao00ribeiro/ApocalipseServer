@@ -7,11 +7,13 @@
     margin-bottom: 2rem;
 
     h1 {
-
+        font-family: "Share", Sans-serif;
+        font-size: 30px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
         font-size: 2rem;
         margin-top: 2rem;
         color: var(--white);
-        margin-bottom: 2rem;
     }
 }
 
@@ -51,8 +53,8 @@
 
 .buttonEnviar {
     border-radius: 0.3rem;
-    width: 250px;
-    height: 80px;
+    width: 200px;
+    height: 50px;
     border: 0;
     background-color: var(--red);
     font-size: 1.2rem;

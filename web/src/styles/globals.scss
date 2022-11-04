@@ -16,6 +16,14 @@
   --dark-900: #010012;
   --red: #FF0000;
 
+
+
+  //cores de funcoes
+  --lider: rgb(116, 0, 0);
+  --vicelider: red;
+  --programador: rgb(255, 153, 0);
+  --modelador3d: rgb(255, 251, 0);
+
 }
 
 button {
@@ -37,7 +45,7 @@ input,
 textarea,
 select,
 button {
-  font: 400 1rem sans-serif; //1rem = 16px
+  font: 400 1rem 'Share'; //1rem = 16px
 }
 
 @media (max-width:720px) {

@@ -5,6 +5,10 @@
     align-items: center;
 
     h1 {
+        font-family: "Share", Sans-serif;
+        font-size: 30px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
         font-size: 2rem;
         margin-top: 2rem;
         color: var(--white);
@@ -50,10 +54,20 @@
     h2 {
         margin-top: 1rem;
         margin-bottom: 1rem;
+        font-family: 'Kodchasan';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 32px;
         color: var(--white);
     }
 
     p {
+        font-family: 'Kodchasan', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 32px;
         color: var(--white);
         text-align: justify;
     }

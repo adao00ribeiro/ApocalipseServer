@@ -13,11 +13,25 @@ export default function Home() {
     <>
       <Head>
         <title>Home</title>
+        <link href="https://fonts.googleapis.com" rel="preconnect" />
+        <link href="https://fonts.gstatic.com" rel="preconnect" />
+        <link href="https://fonts.googleapis.com/css2?family=Share:ital,wght@0,400;0,700;1,400;1,700&display</link>=swap" rel="stylesheet" />
+
+        <link href="https://fonts.googleapis.com" rel="preconnect" />
+        <link href="https://fonts.gstatic.com" rel="preconnect" />
+        <link href="https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
       </Head>
 
-      <div className={styles.divImage}>
-        <img src="/Background.svg" ></img>
+      <div className={styles.containerImage}>
+        <div className={styles.divImage}>
+          <Image src="/game-console.jpg" alt={''} ></Image>
+        </div>
+
+        <div className={styles.divOpacity}>
+          <Image src="/game-console.jpg" alt={''} ></Image>
+        </div>
       </div>
+
       <div className={styles.divCentralized}>
         <MainDiv></MainDiv>
         <SectionProjetos></SectionProjetos>

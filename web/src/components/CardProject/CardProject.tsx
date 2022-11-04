@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from 'next/image';
 import styles from "./styles.module.scss";
 //import { FiLogOut } from 'react-icons/fi'
 export function CardProject() {
@@ -6,12 +7,11 @@ export function CardProject() {
 
         < div className={styles.Card}>
             <div className={styles.divImage}>
-                <img src="https://static-cdn.jtvnw.net/ttv-boxart/65632_IGDB-144x192.jpg"></img>
+                <Image src="/fundomenu.jpg" alt={""}></Image>
             </div>
-
             <div className={styles.CardInfo}>
-                <strong>Nome Jogo</strong>
-                <span> Descricao do jogo toper apocalipse asdasdaasda sdas dad asd as</span>
+                <strong>Apocalipse Z</strong>
+                <span> Sobreviver a um Apocalipse Zumbi é o objetivo base, Múltiplos jogadores, se passa no século</span>
                 <div className={styles.CardButton}>
                     <button>Detalhes</button>
                 </div>

@@ -1,16 +1,17 @@
 //section projetos
 .divProjeto {
-
     display: flex;
     flex-direction: column;
     align-items: center;
 
-
     h1 {
+        font-family: "Share", Sans-serif;
+        font-size: 30px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
         font-size: 2rem;
         margin-top: 2rem;
         color: var(--white);
-        margin-bottom: 2rem;
     }
 }
 
