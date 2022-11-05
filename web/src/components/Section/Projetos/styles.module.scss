@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
 
+
     h1 {
         font-family: "Share", Sans-serif;
         font-size: 30px;
@@ -11,15 +12,14 @@
         letter-spacing: 1px;
         font-size: 2rem;
         margin-top: 2rem;
+        margin-bottom: 2rem;
         color: var(--white);
     }
 }
 
 .grid {
-    width: 100%;
-    height: 100%;
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 24px;
-
+    padding: 10px;
 }

@@ -7,7 +7,7 @@ export function Header() {
         < header className={styles.headerContainer}>
             <div className={styles.headerContent}>
                 <Link href="/">
-                    <Image src="/Logo.svg" width={100} height={60} alt={""}></Image>
+                    <Image src="/Logo.svg" width={50} height={50} alt={""}></Image>
                 </Link>
                 <nav className={styles.menuNav}>
                     <Link href="/#projetos" scroll={false}>

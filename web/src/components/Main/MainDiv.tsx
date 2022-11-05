@@ -9,7 +9,7 @@ export function MainDiv() {
 
       <div className={styles.divMain}>
         <h1>Jogos com ideia e design memorável</h1>
-        <Image src="/Logo.svg" alt={""} ></Image>
+
       </div>
     </>
 

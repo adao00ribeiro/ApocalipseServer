@@ -1,20 +1,18 @@
 .headerContainer {
     position: fixed;
-
     left: 0;
     width: 100%;
-
 }
 
 .headerContent {
-    background-color: rgba(17, 17, 17, 0.618);
 
+    background-color: rgba(17, 17, 17, 0.618);
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 0 2rem;
 
-    img {
+    Image {
         cursor: pointer;
     }
 

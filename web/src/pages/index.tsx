@@ -24,11 +24,11 @@ export default function Home() {
 
       <div className={styles.containerImage}>
         <div className={styles.divImage}>
-          <Image src="/game-console.jpg" alt={''} ></Image>
+          <Image src="/game-console.jpg" alt={''} fill={true} ></Image>
         </div>
 
         <div className={styles.divOpacity}>
-          <Image src="/game-console.jpg" alt={''} ></Image>
+          <Image src="/game-console.jpg" alt={''} fill={true} ></Image>
         </div>
       </div>
 

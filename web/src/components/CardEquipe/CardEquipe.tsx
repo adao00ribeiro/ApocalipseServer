@@ -8,8 +8,7 @@ export function CardEquipe(props: ICardEquipe) {
     console.log(classfuncao);
     return (
         <div className={styles.Card}>
-
-            <Image src={props.url} alt={""}></Image>
+            <Image src={props.url} alt={""} fill />
             <div className={styles.CardInformacao}>
                 <strong>{props.nome}</strong>
                 <span className={classfuncao}>{props.funcao}</span>

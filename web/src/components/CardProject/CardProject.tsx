@@ -7,7 +7,7 @@ export function CardProject() {
 
         < div className={styles.Card}>
             <div className={styles.divImage}>
-                <Image src="/fundomenu.jpg" alt={""}></Image>
+                <Image src="/fundomenu.jpg" alt={""} fill ></Image>
             </div>
             <div className={styles.CardInfo}>
                 <strong>Apocalipse Z</strong>
