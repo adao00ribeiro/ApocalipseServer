@@ -33,12 +33,19 @@
         padding: 0.5rem;
     }
 
+
+
 }
 
 .divinput {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 20px;
+
+    @media screen and (max-width: 767px) {
+        flex-direction: column;
+        gap: 5px;
+    }
 }
 
 .input {

@@ -11,6 +11,7 @@
 .divImage {
 
     position: relative;
+    width: 100%;
     height: 50%;
 
     img {
@@ -53,12 +54,23 @@
 
 .CardButton {
 
+    color: var(--white);
 
-    button {
-        color: var(--white);
-        width: 50%;
-        color: black;
-        padding: 1rem 2rem;
-        background-color: var(--red);
+    background-color: var(--red);
+
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0;
+
+        text-decoration: none;
+        color: #fff;
+
+        font-family: 'Mina';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
     }
 }

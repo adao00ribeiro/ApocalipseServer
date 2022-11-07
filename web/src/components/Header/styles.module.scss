@@ -2,31 +2,51 @@
     position: fixed;
     left: 0;
     width: 100%;
+    z-index: 2;
+
+    @media screen and (max-width: 767px) {
+        position: absolute;
+    }
 }
 
 .headerContent {
 
     background-color: rgba(17, 17, 17, 0.618);
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    padding: 0 2rem;
+    justify-content: space-around;
 
-    Image {
-        cursor: pointer;
+
+    @media screen and (max-width: 767px) {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.divImageLogo {
+    position: relative;
+    width: 60px;
+    height: 60px;
+
+    Img {
+        object-fit: cover;
     }
 
+    @media screen and (max-width: 767px) {
+        width: 100px;
+        height: 100px;
+    }
 }
 
 .menuNav {
+
     display: flex;
+    flex-direction: row;
     align-items: center;
 
     a {
         color: var(--white);
-        padding: 0 0.5rem;
-        display: inline-block;
-        position: relative;
+
         transition: color 0.7s;
 
         &+a {
@@ -36,7 +56,19 @@
         &:hover {
             color: var(--red-900)
         }
+
+        @media screen and (max-width: 767px) {
+            padding: 10px;
+
+            &+a {
+                margin-left: 0rem;
+            }
+        }
     }
 
+    @media screen and (max-width: 767px) {
+        flex-direction: column;
+
+    }
 
 }

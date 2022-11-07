@@ -9,13 +9,13 @@ export function SectionSobreNos() {
           <h1>Sobre Nos</h1>
           <div className={styles.divinfo}>
             <strong>Desenvolvimento de jogos Indie para pessoa fisica ou empresas</strong>
-            <strong>Nosso Objectivo é entregar o projeto na melhor qualidade possivel no menor tempo possivel</strong>
+            <strong>Nosso Objetivo é entregar o projeto na melhor qualidade possivel no menor tempo possivel. Trabalhamos com as seguintes ferrementas.</strong>
           </div>
           <div className={styles.ContainerProgram}>
             <div className={styles.divProgram}>
               <SiUnity color="#FFF" size={80} />
               <h2>Unity</h2>
-              <p>O Unity 3D se apresenta como um Game Engine, ou motor de jogo, mas na realidade é muito mais do que isso.A ferramenta possui um estilo de programação e organização dos projetos todo especial, além de muito simples..</p>
+              <p>O Unity 3D se apresenta como um Game Engine, ou motor de jogo, mas na realidade é muito mais do que isso. A ferramenta possui um estilo de programação e organização dos projetos todo especial, além de muito simples..</p>
             </div>
             <div className={styles.divProgram}>
               <SiBlender color="#FFF" size={80} />

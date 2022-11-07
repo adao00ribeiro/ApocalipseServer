@@ -6,10 +6,8 @@ export function MainDiv() {
   return (
     <>
       <Header />
-
       <div className={styles.divMain}>
         <h1>Jogos com ideia e design memorável</h1>
-
       </div>
     </>
 

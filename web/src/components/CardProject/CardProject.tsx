@@ -13,9 +13,8 @@ export function CardProject() {
                 <strong>Apocalipse Z</strong>
                 <span> Sobreviver a um Apocalipse Zumbi é o objetivo base, Múltiplos jogadores, se passa no século</span>
                 <div className={styles.CardButton}>
-                    <button>Detalhes</button>
+                    <Link href="/games/apocalipsez">Detalhes</Link>
                 </div>
-
             </div>
         </div >
     )

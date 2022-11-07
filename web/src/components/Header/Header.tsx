@@ -6,14 +6,19 @@ export function Header() {
     return (
         < header className={styles.headerContainer}>
             <div className={styles.headerContent}>
-                <Link href="/">
-                    <Image src="/Logo.svg" width={50} height={50} alt={""}></Image>
-                </Link>
+                <div className={styles.divImageLogo}>
+                    <Link href="/">
+
+                        <Image src="/Logo.svg" fill alt={""}></Image>
+
+
+                    </Link>
+                </div>
                 <nav className={styles.menuNav}>
-                    <Link href="/#projetos" scroll={false}>
+                    <Link href="/#projetos" >
                         Projetos
                     </Link>
-                    <Link href="/#sobrenos" scroll={false}>
+                    <Link href="/#sobrenos">
                         Sobre Nos
                     </Link>
                     <Link href="/#equipe">

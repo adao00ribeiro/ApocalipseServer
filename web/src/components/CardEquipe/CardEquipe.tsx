@@ -4,8 +4,6 @@ import styles from "./styles.module.scss";
 
 export function CardEquipe(props: ICardEquipe) {
     const classfuncao = test(props.funcao);
-
-    console.log(classfuncao);
     return (
         <div className={styles.Card}>
             <Image src={props.url} alt={""} fill />
@@ -26,11 +24,14 @@ function test(funcao: string) {
     else if (funcao == "Vice Líder de equipe") {
         return styles.colorViceLider;
     }
-    else if (funcao == "modelador") {
+    else if (funcao == "Modelador") {
         return styles.colormodelador;
     }
     else if (funcao == "Programador") {
         return styles.colorProgramador;
+    }
+    else if (funcao == "Dubladora") {
+        return styles.colorDubladora;
     }
 
 

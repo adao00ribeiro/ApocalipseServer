@@ -10,8 +10,7 @@ export function SectionProjetos() {
         <div className={styles.grid}>
 
           <CardProject />
-          <CardProject />
-          <CardProject />
+
 
         </div>
       </div>

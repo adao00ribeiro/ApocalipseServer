@@ -35,6 +35,31 @@ export function SectionEquipe() {
               nome={"Adão Ribeiro"}
               funcao={"Programador"}
             />
+            <CardEquipe
+              id={"4"}
+              url={"/yasminreis.jpg"}
+              nome={"Yasmin Reis"}
+              funcao={"Dubladora"}
+            />
+            <CardEquipe
+              id={"5"}
+              url={"/th.jpg"}
+              nome={"Th"}
+              funcao={"Programador"}
+            />
+            <CardEquipe
+              id={"6"}
+              url={"/sergioluiz.jpg"}
+              nome={"Sergio Luiz"}
+              funcao={"Modelador"}
+            />
+            <CardEquipe
+              id={"7"}
+              url={"/pedroluiz.jpg"}
+              nome={"Perdro Luiz"}
+              funcao={"Designer"}
+            />
+
 
           </div>
         </div>
