@@ -21,24 +21,108 @@
 .divCentralized {
     max-width: 800px;
     margin: auto;
+    height: 100%;
 
 }
 
 .divMain {
-    height: 100vh;
+    height: 50vh;
     display: flex;
     align-items: center;
-    margin-left: 5px;
+
 
     h1 {
-        margin-top: -4rem;
-
+        margin-top: 16rem;
         color: var(--white);
-
         font-family: 'Mina';
         font-style: normal;
         font-weight: 400;
         font-size: 58px;
         line-height: 124px;
+    }
+
+
+}
+
+.DivDetalhes {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+.divDetalhesLeft {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    justify-content: center;
+    margin-right: 2rem;
+
+
+    h5 {
+        font-family: 'Kodchasan', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: var(--white);
+        margin-bottom: 1rem;
+    }
+
+    p {
+        margin-bottom: 2rem;
+        color: var(--white);
+        width: 100%;
+        font-family: 'Kodchasan', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+}
+
+.divDetalhesImage {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 2rem;
+
+}
+
+.divDetalhesRight {
+    width: 25%;
+
+
+}
+
+.emDesenvolvimento {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: yellow;
+
+    span {
+
+        color: var(--white);
+    }
+}
+
+.divDetalhesRightInfo {
+    display: flex;
+    flex-direction: column;
+
+
+    p {
+        color: var(--white);
+        font-family: 'Kodchasan', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+
+    h2 {
+
+        margin-bottom: 0.5rem;
+        color: var(--white);
+        width: 100%;
+
     }
 }
