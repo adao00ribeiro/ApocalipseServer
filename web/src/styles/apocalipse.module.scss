@@ -1,33 +1,22 @@
-.divImage {
-    position: absolute;
-    width: 100%;
-    height: 50%;
-    z-index: -1;
-
-    div {
-        width: 100%;
-        height: 100%;
-        box-shadow: inset 0px -16px 23px #010012;
-    }
-
-
-    img {
-        position: absolute;
-        object-fit: cover;
-        z-index: -1;
-    }
-}
-
 .divCentralized {
     max-width: 800px;
     margin: auto;
-    height: 100%;
+}
 
+.reactplayer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    filter: blur(0.5rem);
+    z-index: -2;
 }
 
 .divMain {
-    height: 50vh;
+    height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
 
 
@@ -44,85 +33,16 @@
 
 }
 
-.DivDetalhes {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    display: flex;
-    flex-direction: row;
-    height: auto;
-}
-
-.divDetalhesLeft {
-    display: flex;
-    flex-direction: column;
-    width: 75%;
-    justify-content: center;
-    margin-right: 2rem;
-
-
-    h5 {
-        font-family: 'Kodchasan', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        color: var(--white);
-        margin-bottom: 1rem;
-    }
-
-    p {
-        margin-bottom: 2rem;
-        color: var(--white);
-        width: 100%;
-        font-family: 'Kodchasan', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1rem;
-    }
-}
-
-.divDetalhesImage {
+.divImageLogoapocalipse {
     position: relative;
-    width: 100%;
-    height: 350px;
-    margin-bottom: 2rem;
-
+    margin-top: 5rem;
+    width: 50%;
+    height: 50%;
 }
 
-.divDetalhesRight {
-    width: 25%;
-
-
-}
-
-.emDesenvolvimento {
-    margin-bottom: 2rem;
-    padding: 1rem;
-    background-color: yellow;
-
-    span {
-
-        color: var(--white);
-    }
-}
-
-.divDetalhesRightInfo {
-    display: flex;
-    flex-direction: column;
-
-
-    p {
-        color: var(--white);
-        font-family: 'Kodchasan', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1rem;
-    }
-
-    h2 {
-
-        margin-bottom: 0.5rem;
-        color: var(--white);
-        width: 100%;
-
+.divDownload {
+    a {
+        padding: 1rem 2rem 1rem 2rem;
+        background-color: var(--red);
     }
 }
