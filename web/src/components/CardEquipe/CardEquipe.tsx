@@ -3,13 +3,13 @@ import { ICardEquipe } from "../../interfaces/ICardEquipe";
 import styles from "./styles.module.scss";
 
 export function CardEquipe(props: ICardEquipe) {
-    const classfuncao = test(props.funcao);
+
     return (
         <div className={styles.Card}>
             <Image src={props.url} alt={""} fill />
             <div className={styles.CardInformacao}>
                 <strong>{props.nome}</strong>
-                <span className={classfuncao}>{props.funcao}</span>
+                <span className={styles.colorViceLider}>{props.funcao}</span>
             </div>
         </div>
     )
@@ -33,6 +33,4 @@ function test(funcao: string) {
     else if (funcao == "Dubladora") {
         return styles.colorDubladora;
     }
-
-
 }

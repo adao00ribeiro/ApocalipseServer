@@ -59,6 +59,12 @@ export function SectionEquipe() {
               nome={"Perdro Luiz"}
               funcao={"Designer"}
             />
+            <CardEquipe
+              id={"8"}
+              url={"/lucas.jpg"}
+              nome={"Lucas Wellington"}
+              funcao={"Animador"}
+            />
 
 
           </div>
