@@ -15,7 +15,6 @@ export function CardEquipe(props: ICardEquipe) {
     )
 }
 
-
 function test(funcao: string) {
 
     if (funcao == "Líder de equipe") {

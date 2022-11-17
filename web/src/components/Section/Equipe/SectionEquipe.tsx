@@ -61,9 +61,33 @@ export function SectionEquipe() {
             />
             <CardEquipe
               id={"8"}
-              url={"/lucas.jpg"}
+              url={"/Lucas.jpg"}
               nome={"Lucas Wellington"}
               funcao={"Animador"}
+            />
+            <CardEquipe
+              id={"9"}
+              url={"/Foto Adriano.jpeg"}
+              nome={"Adriano"}
+              funcao={"Modelador"}
+            />
+            <CardEquipe
+              id={"10"}
+              url={"/Foto Leonan.jpeg"}
+              nome={"Leonan Carvalho"}
+              funcao={"Programador"}
+            />
+            <CardEquipe
+              id={"11"}
+              url={"/Foto Eliander.jpeg"}
+              nome={" Eliander Gomes"}
+              funcao={"Compositor"}
+            />
+            <CardEquipe
+              id={"11"}
+              url={"/Foto Leonardo.jpeg"}
+              nome={"Leonardo Grimaldi"}
+              funcao={"Tradutor"}
             />
 
 

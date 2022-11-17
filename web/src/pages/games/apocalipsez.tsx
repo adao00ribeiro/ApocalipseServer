@@ -18,9 +18,9 @@ export default function Apocalipsez() {
             </Head>
             <Header />
             <div className={styles.divCentralized}>
-                <div >
-                    <video autoPlay muted loop className={styles.reactplayer}>
-                        <source src="https://www.youtube.com/watch?v=oqbYg7vld3U&ab_channel=ApocalipseZ" type="" />
+                <div>
+                    <video key={"/videos/Trailer.mp4"} autoPlay muted loop className={styles.reactplayer}>
+                        <source src="/videos/Trailer.mp4" type="video/mp4" />
                     </video>
                 </div>
                 <div className={styles.divMain}>
