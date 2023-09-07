@@ -29,7 +29,7 @@ export default function Apocalipsez() {
                     </div>
 
                     <div className={styles.divDownload}>
-                        <Link href={"https://drive.usercontent.google.com/download?id=1cBbM8OXhMwGnHdLYOk4OPPXKAag45ek_&export=download&authuser=0&confirm=t&uuid=e95d389d-fd24-4221-a9d4-0e39177a4d18&at=APZUnTWoKB76hidopReDDCz5AI02:1694121590301"} target="_blank" download>  <span>Download</span></Link>
+                        <Link href={"https://drive.google.com/u/0/uc?id=1p7IxGKVFZnBJxwTrcKAmNxYrhzr_2rA-&export=download&confirm=t&uuid=d14d35e1-b83c-43c6-b89b-3734c0ddbc49&at=AB6BwCDnpUZgZ_yqLkTLXgymetwJ:1694121930505"} target="_blank" download>  <span>Download</span></Link>
                     </div>
                 </div>
             </div >
